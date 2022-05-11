@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    <form action="/action.js" class="form">
+        <h2>Sign Up</h2>
+
+        <div>
+            <label for=""><b>Name*</b></label>
+            <input type="text" placeholder="First name" required
+                style="border: 0px; border-bottom: 1px solid ;"></input>
+
+            <input type="text" placeholder="Last name" required style="border: 0px; border-bottom: 1px solid;"></input>
+        </div>
+
+
+        <div>
+            <label for="Emailid"><b>Email Address</b></label>
+            <input type="text" placeholder="example@email.com" id="Emailid" required
+                style="border: 0px; border-bottom: 1px solid;"></input>
+        </div>
+
+        <div>
+            <label for="pass"><b>Password</b></label>
+            <input type="text" placeholder="Password" id="pass" required
+                style="border: 0px; border-bottom: 1px solid;"></input>
+        </div>
+
+        <div>
+            <label for=""><b>Confirm password</b></label>
+            <input type="text" placeholder="Confirm password" required
+                style="border: 0px; border-bottom: 1px solid;"></input>
+        </div>
+        <div>
+            <label for="dateid"><b>Date of Birth</b></label>
+
+            <input type="date" id="dateid" name="Date of Birth" value="dd/mm/yy" min="01-01-2000" max="01-01-2050"
+                required></input>
+        </div>
+
+        <div>
+            <label for="gender"><b>Gender</b></label>
+            <input type="radio" value="male" name="gender" id="id1" required>Male</input>
+
+            <input type="radio" value="Female" name="gender" id="id2" required>Female</input>
+
+            <input type="radio" value="Other" name="gender" id="id3" required>Other</input>
+        </div>
+        <div>
+
+            <label for="checkbox id1"><b>Language known*</b></label>
+            <input type="checkbox" value="React" name="Language" id="checkbox id1" required>React</input>
+
+
+            <input type="checkbox" value="Angular" name="Language" id="checkbox id1" required>Angular</input>
+            <input type="checkbox" value="Angular" name="Language" id="checkbox id1" required>Vue</input>
+
+
+        </div>
+        <div>
+            <label for="Experience level"><b>Experience level*</b></label>
+            <select name="Experience level">
+                <option value="Beginer">Beginer</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+        </div>
+        <div>
+            <label for="textareaid"><b>Tell Us About You *</b></label>
+            <textarea name="About you" id="textareaid" cols="30" rows="10" maxlength="500"
+                required>Tell US about YOU</textarea>
+
+
+
+        </div>
+        <div>
+            <input type="checkbox" value="T&C" name="i accept the T&C" required>I accept the T&C </input>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+</body>
+
+</html>
